@@ -252,22 +252,24 @@
 // Episode 9
 
 
-let murderer = 'Professor Plum';
+// let murderer = 'Professor Plum';
 
-if (murderer === 'Professor Plum') {
-  let murderer = 'Mrs. Peacock'; // cannot redeclare a 'let' variable
-}
+// if (murderer === 'Professor Plum') {
+//   let murderer = 'Mrs. Peacock'; // cannot redeclare a 'let' variable
+// }
 
-const declareMurderer = function() {
-  return `The murderer is ${murderer}.`;
-}
+// const declareMurderer = function() {
+//   return `The murderer is ${murderer}.`;
+// }
 
-const verdict = declareMurderer();
-console.log(verdict);
+// const verdict = declareMurderer();
+// console.log(verdict);
 
 //Prediction: I think it's 'Prof Plum' as you cannot redeclare a 'let' variable. 
 //Outcome:  The murderer is Professor Plum.
 
 // Extensions
+
+
 
 // Make up your own episode!
